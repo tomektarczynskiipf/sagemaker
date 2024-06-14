@@ -1,3 +1,7 @@
 .ipynb_checkpoints/README-checkpoint.md
 .ipynb_checkpoints/01_Experiment_generic-checkpoint.ipynb
 .ipynb_checkpoints/.gitignore-checkpoint
+.ipynb_checkpoints/train-checkpoint.py
+.ipynb_checkpoints/02_Experiment_list_experiments-checkpoint.ipynb
+.ipynb_checkpoints/03_Experiment_multiple_experiments_chart-checkpoint.ipynb
+.ipynb_checkpoints/04_train_model_sdk_sklearn_linear-checkpoint.ipynb
