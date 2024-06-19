@@ -5,3 +5,7 @@
 .ipynb_checkpoints/02_Experiment_list_experiments-checkpoint.ipynb
 .ipynb_checkpoints/03_Experiment_multiple_experiments_chart-checkpoint.ipynb
 .ipynb_checkpoints/04_train_model_sdk_sklearn_linear-checkpoint.ipynb
+JOBLIBS/model.joblib
+MODELS_TAR_GZ/model.tar.gz
+.ipynb_checkpoints/06_Inference_Iris-checkpoint.ipynb
+.ipynb_checkpoints/.ipynb_checkpoints/05_Register_Iris-checkpoint-checkpoint.ipynb
