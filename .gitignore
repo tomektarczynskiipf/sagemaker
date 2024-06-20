@@ -11,3 +11,8 @@ MODELS_TAR_GZ/model.tar.gz
 .ipynb_checkpoints/.ipynb_checkpoints/05_Register_Iris-checkpoint-checkpoint.ipynb
 01_Iris_simple_e2e/.ipynb_checkpoints/001_Prepare_Data-checkpoint.ipynb
 01_Iris_simple_e2e/.ipynb_checkpoints/000_Clean_everything-checkpoint.ipynb
+.ipynb_checkpoints/001_Prepare_Data-checkpoint.ipynb
+.ipynb_checkpoints/05_Register_Iris-checkpoint.ipynb
+01_Iris_simple_e2e/.ipynb_checkpoints/002_Train_Model-checkpoint.ipynb
+01_Iris_simple_e2e/.ipynb_checkpoints/003_Deploy_Infer_101_1-checkpoint.ipynb
+01_Iris_simple_e2e/.ipynb_checkpoints/004_Deploy_Infer_101_2-checkpoint.ipynb
