@@ -29,3 +29,5 @@ MODELS_TAR_GZ/model.tar.gz
 01_Iris_simple_e2e/data/iris_infer_pred_normal.csv
 01_Iris_simple_e2e/data/iris_test.csv
 01_Iris_simple_e2e/data/iris_train.csv
+01_Iris_simple_e2e/model/model.tar.gz
+01_Iris_simple_e2e/model/xgboost-model
