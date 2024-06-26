@@ -42,3 +42,10 @@ MODELS_TAR_GZ/model.tar.gz
 **/*.csv
 **/*.png
 **/*.pkl
+03_mlflow_deployment/.ipynb_checkpoints/01_mlflow_deployment-checkpoint.ipynb
+TRAINING_JOBS/.ipynb_checkpoints/02_SIMPLE_TREE-checkpoint.ipynb
+TRAINING_JOBS/.ipynb_checkpoints/01_PREPARE_IRIS_DATA-checkpoint.ipynb
+TRAINING_JOBS/training_code_02/train.py
+03_mlflow_deployment/training_code/train.py
+03_mlflow_deployment/training_code/requirements.txt
+train.py
