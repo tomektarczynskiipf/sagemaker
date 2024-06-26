@@ -39,3 +39,6 @@ MODELS_TAR_GZ/model.tar.gz
 02_wine_mlflow_e2e/.ipynb_checkpoints/001_Prepare_Data-checkpoint.ipynb
 01_Iris_simple_e2e/.ipynb_checkpoints/005_Register_model-checkpoint.ipynb
 01_Iris_simple_e2e/.ipynb_checkpoints/004_Model_inference-checkpoint.ipynb
+**/*.csv
+**/*.png
+**/*.pkl
