@@ -31,3 +31,11 @@ MODELS_TAR_GZ/model.tar.gz
 01_Iris_simple_e2e/data/iris_train.csv
 01_Iris_simple_e2e/model/model.tar.gz
 01_Iris_simple_e2e/model/xgboost-model
+02_wine_mlflow_e2e/.ipynb_checkpoints/005_Register_model-checkpoint.ipynb
+02_wine_mlflow_e2e/.ipynb_checkpoints/003_Train_Model_sagemaker-checkpoint.ipynb
+02_wine_mlflow_e2e/.ipynb_checkpoints/002_Train_Model_normal-checkpoint.ipynb
+02_wine_mlflow_e2e/.ipynb_checkpoints/004_Model_inference-checkpoint.ipynb
+02_wine_mlflow_e2e/.ipynb_checkpoints/000_Clean_everything-checkpoint.ipynb
+02_wine_mlflow_e2e/.ipynb_checkpoints/001_Prepare_Data-checkpoint.ipynb
+01_Iris_simple_e2e/.ipynb_checkpoints/005_Register_model-checkpoint.ipynb
+01_Iris_simple_e2e/.ipynb_checkpoints/004_Model_inference-checkpoint.ipynb
