@@ -49,3 +49,5 @@ TRAINING_JOBS/training_code_02/train.py
 03_mlflow_deployment/training_code/train.py
 03_mlflow_deployment/training_code/requirements.txt
 train.py
+TRAINING_JOBS/.ipynb_checkpoints/04_SIMPLE_XGBOOST-checkpoint.ipynb
+TRAINING_JOBS/.ipynb_checkpoints/03_SIMPLE_LOGISTIC_REGRESSION-checkpoint.ipynb
