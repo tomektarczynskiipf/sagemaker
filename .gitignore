@@ -51,3 +51,12 @@ TRAINING_JOBS/training_code_02/train.py
 train.py
 TRAINING_JOBS/.ipynb_checkpoints/04_SIMPLE_XGBOOST-checkpoint.ipynb
 TRAINING_JOBS/.ipynb_checkpoints/03_SIMPLE_LOGISTIC_REGRESSION-checkpoint.ipynb
+TRAINING_JOBS/.ipynb_checkpoints/05_XGBOOST_WITH_HYPERPARAMS-checkpoint.ipynb
+TRAINING_JOBS/.ipynb_checkpoints/06_XGBOOST_WITH_METRICS-checkpoint.ipynb
+TRAINING_JOBS/.ipynb_checkpoints/07_GENERIC_ESTIMATOR-checkpoint.ipynb
+TRAINING_JOBS/.ipynb_checkpoints/06_SAVE_ARTIFACTS-checkpoint.ipynb
+03_mlflow_deployment/.ipynb_checkpoints/01_mlflow_deployment-Copy1-checkpoint.ipynb
+02_wine_mlflow_e2e/.ipynb_checkpoints/003_Register_model-checkpoint.ipynb
+02_wine_mlflow_e2e/.ipynb_checkpoints/_004_Model_inference-checkpoint.ipynb
+TRAINING_JOBS/training_code_03/start_file.py
+TRAINING_JOBS/.ipynb_checkpoints/08_EVIRONMENT_VARIABLES-checkpoint.ipynb
