@@ -60,3 +60,11 @@ TRAINING_JOBS/.ipynb_checkpoints/06_SAVE_ARTIFACTS-checkpoint.ipynb
 02_wine_mlflow_e2e/.ipynb_checkpoints/_004_Model_inference-checkpoint.ipynb
 TRAINING_JOBS/training_code_03/start_file.py
 TRAINING_JOBS/.ipynb_checkpoints/08_EVIRONMENT_VARIABLES-checkpoint.ipynb
+DEPLOYMENT/01_manual_prediction/model.tar.gz
+DEPLOYMENT/01_manual_prediction/model.xgb
+DEPLOYMENT/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+DEPLOYMENT/.ipynb_checkpoints/04_Batch_inference_xgboost_from_created_model-checkpoint.ipynb
+DEPLOYMENT/.ipynb_checkpoints/03_Create_model_xgboost-checkpoint.ipynb
+DEPLOYMENT/.ipynb_checkpoints/02_Batch_inference_xgboost-checkpoint.ipynb
+DEPLOYMENT/.ipynb_checkpoints/01_Manual_batch_inference_xgboost-checkpoint.ipynb
+DEPLOYMENT/.ipynb_checkpoints/05_Online_inference_xgboost_from_created_model-checkpoint.ipynb
