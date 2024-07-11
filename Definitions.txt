@@ -1,0 +1,45 @@
+ARN (Amazon Resource Name): Unique identifier for AWS resources. The format is arn:partition:service:region:account-id:resource-id. An example is arn:aws:s3:::my_bucket.
+
+URI (Uniform Resource Identifier): Identifies resources on the internet. The format is scheme:[//[user:password@]host[:port]][/]path[?query][#fragment]. An example is https://www.example.com/path/to/resource?query=example#fragment.
+
+Key Differences:
+
+- ARNs are specific to AWS; URIs are for web resources.
+- ARNs have a fixed format for AWS; URIs have a flexible format.
+- ARNs are used for AWS management; URIs are used to locate/access web resources.
+
+====================================================
+
+Docker: Docker is a platform that enables developers to automate the deployment, scaling, and management of applications using containerization. It provides a way to package applications and their dependencies into a standardized unit called a container, ensuring consistency across different environments.
+
+Container: A container is a lightweight, standalone, and executable package of software that includes everything needed to run an application: code, runtime, system tools, libraries, and settings. Containers are isolated from each other and the host system, ensuring that they run consistently regardless of where they are deployed.
+
+Image: An image is a read-only template used to create containers. It contains the application code, along with the necessary runtime, libraries, and dependencies. Images are built from a set of instructions written in a Dockerfile, and they serve as the basis for creating and running Docker containers. Images are written in the form of a text file.
+Summary
+
+- Docker: Platform for containerization.
+- Container: Isolated, executable package of software.
+- Image: Read-only template for creating containers.
+
+Image:
+
+    A Docker image is a read-only template used to create containers.
+    It contains the application code, libraries, dependencies, and the necessary runtime environment.
+    Images are built using a set of instructions in a Dockerfile.
+    Images are static; they do not change once created.
+    They serve as the blueprint or the base layer for containers.
+    Multiple containers can be started from a single image, and they all share the same initial state.
+
+Container:
+
+    A Docker container is an instance of a Docker image.
+    It is a runnable entity that encapsulates an application along with its dependencies.
+    Containers are created from images and add a writable layer on top.
+    They are dynamic and can change state, save data, and interact with other containers or systems.
+    Containers can be started, stopped, moved, and deleted independently.
+    Each container runs in isolation, ensuring consistency and preventing conflicts.
+
+Summary
+
+    Images are the blueprints (static templates) from which containers are created.
+    Containers are the running instances of these images, encapsulating the application and its environment in a dynamic and isolated manner.
