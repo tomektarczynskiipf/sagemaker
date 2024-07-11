@@ -1,0 +1,47 @@
+{
+  "StartAt": "Train model (XGBoost)",
+  "States": {
+    "Train model (XGBoost)": {
+      "Resource": "arn:aws:states:::sagemaker:createTrainingJob.sync",
+      "Parameters": {
+        "AlgorithmSpecification": {
+          "TrainingImage": "685385470294.dkr.ecr.eu-west-1.amazonaws.com/xgboost:latest",
+          "TrainingInputMode": "File"
+        },
+        "OutputDataConfig": {
+          "S3OutputPath": "s3://sagemaker-bucket-ds/TRAINING-OUTPUT/"
+        },
+        "StoppingCondition": {
+          "MaxRuntimeInSeconds": 86400
+        },
+        "ResourceConfig": {
+          "InstanceCount": 1,
+          "InstanceType": "ml.m5.large",
+          "VolumeSizeInGB": 30
+        },
+        "RoleArn": "arn:aws:iam::211125740051:role/service-role/AmazonSageMaker-ExecutionRole-20240607T130532",
+        "InputDataConfig": [
+          {
+            "DataSource": {
+              "S3DataSource": {
+                "S3DataDistributionType": "ShardedByS3Key",
+                "S3DataType": "S3Prefix",
+                "S3Uri": "s3://sagemaker-bucket-ds/training-jobs/data/train/iris_train.csv"
+              }
+            },
+            "ChannelName": "train",
+            "ContentType": "text/csv"
+          }
+        ],
+        "HyperParameters": {
+          "objective": "reg:logistic",
+          "eval_metric": "rmse",
+          "num_round": "5"
+        },
+        "TrainingJobName.$": "$$.Execution.Name"
+      },
+      "Type": "Task",
+      "End": true
+    }
+  }
+}

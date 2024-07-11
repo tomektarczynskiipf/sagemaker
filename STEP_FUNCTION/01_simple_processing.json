@@ -1,0 +1,57 @@
+{
+  "Comment": "A description of my state machine",
+  "StartAt": "Preprocessing",
+  "States": {
+    "Preprocessing": {
+      "Type": "Task",
+      "Resource": "arn:aws:states:::sagemaker:createProcessingJob.sync",
+      "Parameters": {
+        "ProcessingResources": {
+          "ClusterConfig": {
+            "InstanceCount": 1,
+            "InstanceType": "ml.t3.medium",
+            "VolumeSizeInGB": 10
+          }
+        },
+        "ProcessingInputs": [
+          {
+            "InputName": "code",
+            "S3Input": {
+              "S3Uri": "s3://sagemaker-bucket-ds/PROCESSING/01_CODE/",
+              "LocalPath": "/opt/ml/processing/input/code",
+              "S3DataType": "S3Prefix",
+              "S3InputMode": "File",
+              "S3DataDistributionType": "FullyReplicated",
+              "S3CompressionType": "None"
+            }
+          }
+        ],
+        "ProcessingOutputConfig": {
+          "Outputs": [
+            {
+              "OutputName": "default-output",
+              "S3Output": {
+                "S3Uri": "s3://sagemaker-bucket-ds/PROCESSING/output/",
+                "LocalPath": "/opt/ml/processing/output",
+                "S3UploadMode": "EndOfJob"
+              }
+            }
+          ]
+        },
+        "AppSpecification": {
+          "ImageUri": "141502667606.dkr.ecr.eu-west-1.amazonaws.com/sagemaker-scikit-learn:1.2-1-cpu-py3",
+          "ContainerEntrypoint": [
+            "python3",
+            "/opt/ml/processing/input/code/create_text_file.py"
+          ]
+        },
+        "StoppingCondition": {
+          "MaxRuntimeInSeconds": 300
+        },
+        "RoleArn": "arn:aws:iam::211125740051:role/service-role/AmazonSageMaker-ExecutionRole-20240607T130532",
+        "ProcessingJobName.$": "$$.Execution.Name"
+      },
+      "End": true
+    }
+  }
+}
